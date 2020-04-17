@@ -1,0 +1,599 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  background: #f0efe7 url("/assets/body.jpg");
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+.inner {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+  color: #4e443c;
+  text-rendering: optimizelegibility;
+}
+
+h3 {
+  line-height: 33px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+  color: #0388a6;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: color;
+  background-color: transparent;
+}
+
+header {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  display: block;
+  position: relative;
+  padding-bottom: 26px;
+  margin-top: 14px;
+}
+
+p {
+  margin: 0 0 11px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.logo-link {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Georgia, "Times New Roman", serif !important;
+  background-color: transparent;
+  color: #0388a6;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+header a img {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: Georgia, "Times New Roman", serif !important;
+  color: #0388a6;
+  width: 110px;
+  height: 46px;
+  border: 0;
+}
+
+#tagline {
+  font-family: Georgia, "Times New Roman", serif !important;
+  position: absolute;
+  top: 11px;
+  left: 120px;
+  display: block;
+  margin-top: 1px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #9a9994;
+}
+
+form {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 1000;
+  width: 262px;
+  padding-left: 32px;
+  background: transparent url("/./assets/search.png") 10px 50% no-repeat;
+  background-size: 17px 17px;
+  background-color: #fcfcfa !important;
+  border: solid 1px #ceccc5;
+  border-radius: 20px;
+  box-shadow: inset 0 1px 4px #ddd;
+}
+
+#search-text {
+  font: inherit;
+  margin: 0;
+  font-size: 14px;
+  outline: none;
+  font-family: Georgia, "Times New Roman", serif !important;
+  border-radius: 20px;
+  width: 100%;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  line-height: 1em;
+  color: #4e443c;
+  background-color: transparent;
+  border: 0;
+}
+
+#masthead {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  height: 295px;
+  margin-top: -20px;
+  margin-bottom: 2em;
+  background: transparent url("/assets/isometric-grid.png") top right repeat;
+  background-size: 35px 21px;
+}
+
+#masthead .inner {
+  padding-top: 20px;
+}
+
+#masthead .inner p {
+  width: 558px;
+  margin-bottom: 1.2em;
+  font-size: 18px;
+  line-height: 26.4px;
+}
+
+.illustration {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  width: 389px;
+  height: 251px;
+  border: 0;
+  position: absolute;
+  right: -30px;
+  top: 24px;
+}
+
+.content-wrapper {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+}
+
+.inner {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+#front-content {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  overflow: visible;
+}
+
+#front-navigation {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  display: block;
+  float: left;
+  width: 618px;
+  margin-bottom: 24px;
+  border-right: solid 1px #d8d7cf;
+}
+
+#front-nav {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  display: block;
+}
+
+#front-nav ul {
+  padding-top: 24px;
+}
+
+#front-nav a {
+  display: block;
+  height: 86px;
+  padding-left: 90px;
+  color: #4e443c;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+ul {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  padding: 0;
+  margin: 0 0 11px 25px;
+  margin-left: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 22px;
+}
+
+nav {
+  display: table;
+}
+
+#front-nav ul li {
+  display: block;
+  float: left;
+  width: 280px;
+  margin-bottom: 40px;
+}
+
+#front-nav ul li:nth-child(n + 3) {
+  margin-bottom: 20px;
+}
+
+#front-nav ul li:nth-child(2n + 1) {
+  margin-right: 30px;
+}
+
+#front-nav ul li a img {
+  float: left;
+  margin-right: -90px;
+  margin-left: -90px;
+  opacity: 0.9;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  width: 74px;
+  height: 74px;
+}
+
+#front-nav a {
+  display: block;
+  height: 86px;
+  padding-left: 90px;
+  color: #4e443c;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transition-duration: 0.3s;
+  transition-property: color;
+}
+
+#front-nav a h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f14e32;
+  line-height: 33px;
+  margin: 0;
+}
+
+#front-nav ul li a p {
+  font-size: 13px;
+  line-height: 17.6px;
+}
+
+#front-downloads {
+  float: right;
+  width: 313px;
+  position: relative;
+}
+
+#front-downloads .monitor {
+  position: absolute;
+  top: 0;
+  right: -12px;
+}
+
+#front-book {
+  float: left;
+  width: 590px;
+  padding-top: 20px;
+  border-top: solid 1px #d8d7cf;
+}
+
+#front-book p {
+  margin-top: 16px;
+}
+
+#front-downloads table a {
+  font-weight: bold;
+}
+
+#front-downloads table {
+  position: absolute;
+  top: 271px;
+  left: 24px;
+}
+
+#front-downloads table td {
+  padding: 8px 20px 6px 0;
+  min-width: 145px;
+}
+
+.book table.ref th:nth-child(1),
+td:nth-child(1) {
+  width: 25%;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+a.icon.gui {
+  background: transparent url(/assets/gui.png) 6px 3px no-repeat;
+  background-size: 18px 24px;
+}
+
+a.icon {
+  display: inline-block;
+  height: 30px;
+  padding-left: 30px;
+  line-height: 36px;
+}
+
+a.icon.older-releases {
+  background: transparent url(/assets/box.png) 0 6px no-repeat;
+  background-size: 22px 20px;
+}
+
+a.icon.mac {
+  background: transparent url(/assets/apple.png) 5px 4px no-repeat;
+  background-size: 17px 21px;
+}
+
+a.icon.source {
+  background: transparent url(/assets/source-code.png) 0 6px no-repeat;
+  background-size: 25px 20px;
+}
+
+#pro-git {
+  font-size: 14px;
+  line-height: 22px;
+  color: #4e443c;
+  font-family: Georgia, "Times New Roman", serif !important;
+  width: 56px;
+  height: 74px;
+  border: 0;
+  float: left;
+  margin-right: 20px;
+}
+
+.monitor {
+  background: transparent url(/./assets/monitor-windows.png) top right no-repeat;
+  background-size: 313px 271px;
+  width: 273px;
+  height: 226px;
+  padding-top: 45px;
+  padding-left: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.monitor h4 {
+  font-weight: normal;
+  color: #fff;
+  font-size: 16px;
+}
+
+.monitor span.release-date {
+  font-size: 12px;
+}
+
+.monitor span.version {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.monitor a {
+  color: #59d6de;
+  font-size: 12px;
+}
+
+.monitor a.button {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 #148a92;
+  -moz-box-shadow: 0 1px 0 #148a92;
+  box-shadow: 0 1px 0 #148a92;
+  display: block;
+  width: 224px;
+  padding: 5px 0;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-image: linear-gradient(#1c868c, #186368);
+  border-top: solid 1px #085e64;
+  border-right: solid 1px #1f6367;
+  border-bottom: solid 1px #134143;
+  border-left: solid 1px #1f6367;
+  transition-duration: 0.3s;
+  transition-property: background-image;
+}
+
+.monitor.windows {
+  background: transparent url(./assets/monitor-windows.png) top right no-repeat;
+  background-size: 313px 271px;
+}
+
+#companies-projects ul li {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 65px;
+  margin: 0 4px 25px 5px;
+}
+
+#companies-projects {
+  padding-top: 20px;
+  clear: both;
+  border-top: solid 1px #d8d7cf;
+}
+
+#companies-projects ul a {
+  display: block;
+  width: 108px;
+  height: 65px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.85;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+}
+
+#companies-projects ul a.google {
+  background: transparent url(/assets/google.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.facebook {
+  background: transparent url(/assets/facebook.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.microsoft {
+  background: transparent url(/assets/microsoft.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.twitter {
+  background: transparent url(/assets/twitter.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.linked-in {
+  background: transparent url(/assets/linked-in.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.netflix {
+  background: transparent url(/assets/netflix.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.perl {
+  background: transparent url(/assets/perl.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.postgresql {
+  background: transparent url(/assets/postgresql.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.android {
+  background: transparent url(/assets/android.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.linux {
+  background: transparent url(/assets/linux.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.rails {
+  background: transparent url(/assets/rails.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.qt {
+  background: transparent url(/assets/qt.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.gnome {
+  background: transparent url(/assets/gnome.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.eclipse {
+  background: transparent url(/assets/eclipse.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.kde {
+  background: transparent url(/assets/kde.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+#companies-projects ul a.x {
+  background: transparent url(/assets/x.png) top right no-repeat;
+  background-size: 108px 65px;
+}
+
+footer {
+  padding: 20px 0 40px;
+  margin-top: 35px;
+  clear: both;
+  font-size: 12px;
+  line-height: 15.4px;
+  color: #9a9994;
+  border-top: solid 1px #d8d7cf;
+}
+
+footer .site-source {
+  float: left;
+  padding-left: 46px;
+  background: transparent url(/assets/code.png) 0 2px no-repeat;
+  background-size: 38px 23px;
+}
+
+footer a {
+  color: #403f3c;
+}
+
+footer .sfc-member {
+  float: right;
+  text-align: right;
+}
+
+footer:before {
+  display: table;
+  content: "";
+}
+
+footer:after {
+  display: table;
+  clear: both;
+  content: "";
+}
